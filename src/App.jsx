@@ -1,6 +1,8 @@
 import profileImg from "./assets/shaurya.png";
 import Antigravity from "./components/Antigravity";
 import LaserFlow from "./components/LaserFlow";
+import realEstateImg from "./assets/REAL ESTATE WEB.png";
+import businessImg from "./assets/fourth-project.png";
 
 
 
@@ -144,7 +146,7 @@ function App() {
                 <p>- Built with performance and scalability in mind to handle real-world real estate workflows effectively.</p>
               </div>
               <div className="card-img">
-                <img src="/src/assets/REAL ESTATE WEB.png" alt="Real Estate Project" />
+                <img src={realEstateImg} alt="Indian Real Estate Project" />
               </div>
 
               <a href="https://python-app--shauryaofficia2.replit.app" className="project-cta">View Project →</a>
@@ -158,7 +160,7 @@ function App() {
                 <p>- Perfect for showcasing services, building trust, and engaging potential customers.</p>
               </div>
               <div className="card-img">
-                <img src="/src/assets/fourth-project.png" alt="Real Estate Project" />
+                <img src={businessImg} alt="Business Landing Page" />
               </div>
               <a href="https://resilient-beijinho-2b9518.netlify.app/" className="project-cta second-proj-link">View Project →</a>
             </div>
@@ -171,7 +173,7 @@ function App() {
               {/* Animation layer - MUST be inside contact-card */}
               <div className="contact-animation">
                 <LaserFlow
-                  color="#a99248"
+                  color="#dfc15d"
                   horizontalBeamOffset={0.1}
                   verticalBeamOffset={-0.48}
 
@@ -198,7 +200,7 @@ function App() {
                 <p>Email: <br />shauryaofficial06@gmail.com</p>
                 <p>Phone number: <br /> 91+ 93196-49564</p>
                 <div className="social">
-                  <a href="#" title="Instagram" aria-label="Instagram">
+                  <a href="https://www.instagram.com/shaurya_ojha_19/" title="Instagram" aria-label="Instagram">
                     <svg width="30" height="30" fill="none" stroke="gold" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round" viewBox="0 0 24 24">
                       <rect width="20" height="20" x="2" y="2" rx="5" />
@@ -206,7 +208,7 @@ function App() {
                       <line x1="17.5" y1="6.5" x2="17.5" y2="6.5" />
                     </svg>
                   </a>
-                  <a href="#" title="LinkedIn" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/in/shaurya-ojha/" title="LinkedIn" aria-label="LinkedIn">
                     <svg width="30" height="30" fill="none" stroke="gold" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round" viewBox="0 0 24 24">
                       <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
@@ -229,21 +231,21 @@ function App() {
             <h2>Shaurya</h2>
             <p>Frontend Web Developer specializing in modern, responsive, and visually engaging websites with clean design and smooth interactions.</p>
             <div class="footer-social">
-              <a href="#" title="Instagram" aria-label="Instagram">
+              <a href="https://www.instagram.com/shaurya_ojha_19/" title="Instagram" aria-label="Instagram">
                 <svg fill="none" stroke="gold" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" />
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                   <line x1="17.5" y1="6.5" x2="17.5" y2="6.5" />
                 </svg>
               </a>
-              <a href="#" title="LinkedIn" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/shaurya-ojha/" title="LinkedIn" aria-label="LinkedIn">
                 <svg fill="none" stroke="gold" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                   <rect width="4" height="12" x="2" y="9" />
                   <circle cx="4" cy="4" r="2" />
                 </svg>
               </a>
-              <a href="#" title="GitHub" aria-label="GitHub">
+              <a href="https://github.com/shauryacode-design" title="GitHub" aria-label="GitHub">
                 <svg fill="none" stroke="gold" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
                 </svg>
